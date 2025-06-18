@@ -12,16 +12,16 @@ services:
       - key: APP_ENV
         value: production
       - key: APP_KEY
-        value: base64:your_generated_app_key
+        value: base64:base64:pv7IizZbDdcxbuMlHEpwFhMa6ny6QdRkD45fmtOfdsU=
       - key: DB_CONNECTION
         value: pgsql
       - key: DB_HOST
-        value: your-postgres-host.render.com     # from Render dashboard
+        value: dpg-d195tqnfte5s73c1fv8g-a
       - key: DB_PORT
         value: 5432
       - key: DB_DATABASE
-        value: mydb                              # from Render dashboard
+        value: laravel_db_sa3h
       - key: DB_USERNAME
-        value: myuser                            # from Render dashboard
+        value: laraveluser
       - key: DB_PASSWORD
-        value: mypassword                        # from Render dashboard
+        value: JislpygdkpbdbaEDlrSuQvRJ0DrgkXkZ
